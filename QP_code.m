@@ -235,7 +235,6 @@ drawnow;
 exportgraphics(f4, 'Figure_4_new.pdf', 'ContentType', 'vector', 'BackgroundColor', 'none');
 exportgraphics(f4, 'Figure_4_new.png', 'Resolution', 300);
 
-% disp('All figures generated. Uncomment exportgraphics lines to save.');
 
 %% Local Functions -----------------------------
 function P = buildP(pos, Nt, Np, k)
